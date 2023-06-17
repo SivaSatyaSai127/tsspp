@@ -1,0 +1,32 @@
+nav a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    padding:30px;
+    float:left; 
+    cursor:cell;
+}
+nav{
+    background-color: rgb(255, 0, 21);
+    overflow:hidden;
+}
+nav a:hover{
+    color:blue;
+}
+nav img{
+    width:7%;
+    display:block;
+    margin-left: auto;
+    margin-top: 2px;
+    margin-bottom: auto;
+    margin-right:2px;
+}
+nav img:hover{
+    cursor:zoom-in;
+}
+header{
+    text-align: center;
+    text-decoration: none;
+    background-color: antiquewhite;
+    padding:15px;
+}

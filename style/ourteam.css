@@ -1,0 +1,21 @@
+.ammu {
+    box-sizing:border-box;
+    padding:5px 5px;
+    border: 5px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    /*align-items: center;
+    justify-content: center;*/
+  }
+  
+  .ammu img {
+    width: 50%;
+    height:50%;
+    margin-left:1;
+    margin-right: auto;
+  }
+.ammu h3{
+    margin-left: auto;
+    margin-right: 20px;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:15px 30px;
+    padding:8px;
+}
+.shreya{
+    margin-top: 5px;;
+    border: 5px solid orange;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+h3{
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="email"]{
+    text-align: center;
+    padding:12px;
+    width:90%;
+    border:5px solid lightgray;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    background-color: white;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    color:orange;
+}
+textarea{
+    text-align: center;
+    padding:12px;
+    width:90%;
+    border:5px solid lightgray;
+    border-radius: 5px;
+}

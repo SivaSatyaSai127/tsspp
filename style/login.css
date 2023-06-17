@@ -13,6 +13,7 @@ body{
     border-radius: 5px;
 }
 h3{
+    background:linear-gradient(to right,white,orange,black);
     text-align: center;
     color: blueviolet;
     text-decoration: underline;

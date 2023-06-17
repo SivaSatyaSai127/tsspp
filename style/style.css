@@ -7,10 +7,14 @@ nav a{
     cursor:cell;
 }
 nav{
+    display:flex;
+    /*(position:sticky;
+    top:0;*/
     background-color: rgb(255, 0, 21);
     overflow:hidden;
 }
 nav a:hover{
+    background-color: white;
     color:blue;
 }
 nav img{
@@ -29,4 +33,17 @@ header{
     text-decoration: none;
     background-color: antiquewhite;
     padding:15px;
+}
+@media screen and (min-width:700px) {
+    nav{
+        position:sticky;
+        top:0;
+    }
+    
+}
+@media screen and (max-width:699px) {
+    nav{
+        flex-direction: column;
+    }
+    
 }

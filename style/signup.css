@@ -13,8 +13,13 @@ body{
     border-radius: 5px;
 }
 h3{
+    background:linear-gradient(to right,white,orange,black);
     color: blue;
     text-decoration: underline;
+    text-align: center;
+}
+.sai {
+    background:linear-gradient(to left,orange,white,black);
     text-align: center;
 }
 p{

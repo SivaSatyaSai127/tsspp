@@ -1,21 +1,35 @@
-.ammu {
-    box-sizing:border-box;
-    padding:5px 5px;
-    border: 5px solid lightgray;
-    border-radius: 5px;
-    display: flex;
-    /*align-items: center;
-    justify-content: center;*/
-  }
-  
-  .ammu img {
-    width: 50%;
-    height:50%;
-    margin-left:1;
-    margin-right: auto;
-  }
-.ammu h3{
-    margin-left: auto;
-    margin-right: 20px;
-    text-align: center;
+
+  .ammu{
+    margin-top: 5px;
+    float:left;
+    margin:7px;
+    width:30%;
+    height:30%;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 5px;
+}
+#ammu{
+  width:10%;
+  height:10%;
+}
+#siva{
+  width:10%;
+  height:10%;
+}
+#akka{
+  width:10%;
+  height:10%;
+}
+#pragathi{
+  width:10%;
+  height:10%;
+}
+#sree{
+  width:10%;
+  height:10%;
+}
+#jay{
+  width:10%;
+  height:10%;
 }
